@@ -1,0 +1,123 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+   /* Center container */
+   .center-container {
+    text-align: center;
+  }
+  
+  /* Image styling */
+  .welcome-img {
+    width: 300px;
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+ 
+  header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;  /* Left logo and right nav */
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px; /* Set the logo size */
+    height: auto;
+    margin-right: 15px; /* Space between logo and text */
+  }
+  
+  .welcome-text {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Nav styling */
+.nav-links a {
+    text-decoration: none;
+    color: #0077cc;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #0f1011;
+  }
+  footer {
+    background-color: #ebd4f5;
+    color: #070707;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #00aced;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #312d2d;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+
+  .explore-container {
+    margin-top: 200px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .explore-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .explore-btn:hover {
+    background-color: #07adb3;
+    transform: scale(1.05);
+  }
+  
+  
